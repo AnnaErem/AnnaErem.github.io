@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Число</title>
+    <script>
+        function checkNumber() {
+            var X = parseFloat(document.getElementById("inputX").value);
+            var A = parseFloat(document.getElementById("inputA").value);
+            var B = parseFloat(document.getElementById("inputB").value);
+
+            var result = document.getElementById("result");
+
+            if (X <= A && X<=B) {
+                result.innerHTML = "Число НЕ принадлежит заданному промежутку.";
+            } else {
+                result.innerHTML = "Число принадлежит заданному промежутку.";
+            }
+        }
+    </script>
+</head>
+<body>  
+    
+    <h1>Принадлежит ли число X промежутку от А до В?</h1>
+    <label for="inputX">X:</label>
+    <input type="number" id="inputX"><br><br>
+    <label for="inputA">A:</label>
+    <input type="number" id="inputA"><br><br>
+    <label for="inputB">B:</label>
+    <input type="number" id="inputB"><br><br>
+    <button onclick="checkNumber()">Проверить, принадлежит ли число промежутку</button><br><br>
+    <div id="result"></div>
+
+    <script>
+
+        window.onload = function() {
+            var button = document.querySelector("button");
+            button.addEventListener("click", checkNumber);
+        };
+    </script>
+</body>
+</html>
