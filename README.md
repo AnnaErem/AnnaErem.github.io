@@ -4,3 +4,5 @@
 <p><a href="https://annaerem.github.io/First/id.html">паспорт</a></p>
 <p><a href="https://annaerem.github.io/First/eng/index.html">паспорт eng</a></p>
 <p><a href="https://annaerem.github.io/First/problem/index.html">проблем</a></p>
+<p><a href="https://annaerem.github.io/First/solution/index.html">солюшн</a></p>
+<p><a href="https://annaerem.github.io/First/solution/index2.html">солюшн2</a></p>
