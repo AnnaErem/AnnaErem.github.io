@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+<link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Онлайн-библиотека</a>
+
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="website.html"> Главная</a></li>
+                        <li><a href="races.html">Расы</a></li>
+                        <li><a href="classes.html">Классы</a></li>
+                        <li><a href="adventures.html">Приключения</a></li>
+                    </ul>
+
+                    <ul class="nav-forms">
+                        <li><a href="registration.html" target="_blank"><b><u>Регистрация</u></b></a></li>
+                        <li><a href="search.html" target="_blank">Поиск группы</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+<body>
+    <form align='center' action="registration.html?" method="get" name="user">
+        <p><input type="text" placeholder="Имя" name="name" required />
+        <p><input type="text" placeholder="Никнейм на сервере" name="nick" required />
+        <p><input type="password" placeholder="Задайте пароль" name="password" required />
+        <p><input type="number" placeholder="Номер телефона" name="phone" required />
+        <p><input type="email" placeholder="Электронная почта" name="email" required />
+        <p> <small>Я... </small>
+            <select name="select">
+                <option selected value="DM">Хочу водить игры</option>
+                <option value="Play">Хочу быть игроком</option>
+                <option value="Play">Готов быть и тем, и другим</option>
+            </select>
+        </p>
+
+        <div class="beautiful_btn">
+            <button type="submit" class="btn-main">Отправить</button>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

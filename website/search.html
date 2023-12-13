@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск группы</title>
+<link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Онлайн-библиотека</a>
+
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="website.html"> Главная</a></li>
+                        <li><a href="races.html">Расы</a></li>
+                        <li><a href="classes.html">Классы</a></li>
+                        <li><a href="adventures.html">Приключения</a></li>
+                    </ul>
+
+                    <ul class="nav-forms">
+                        <li><a href="registration.html" target="_blank">Регистрация</a></li>
+                        <li><a href="search.html" target="_blank"><b><u>Поиск группы</u></b></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+<body>
+        <form align="center" action="search.html?" method="get" name="user">
+        <p><input type="email" placeholder="Электронная почта" name="email" required />
+        <p><input type="password" placeholder="Пароль" name="password" required />
+        <p><input type="text" placeholder="Никнейм на сервере" name="nick" required />
+        <p><input type="range" id="numb" name="numb" min="0" max="5" />
+        <label for="numb"><small>Насколько заполнена ваша группа?</small></label>
+        <p><small>Напишите немного о себе и о том, кого вы ищете.</small>
+        <br><textarea cols="50" rows="3" name="info"></textarea>
+            <input type="hidden" name="function"  value="page">
+        </p>
+            <div class="beautiful_btn">
+            <button type="submit" class="btn-main">Отправить</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
