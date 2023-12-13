@@ -3,3 +3,4 @@
 <p><a href="https://annaerem.github.io/First/range.html">задача</a></p>
 <p><a href="https://annaerem.github.io/First/id.html">паспорт</a></p>
 <p><a href="https://annaerem.github.io/First/eng/index.html">паспорт eng</a></p>
+<p><a href="https://annaerem.github.io/First/problem/index.html">проблем</a></p>
